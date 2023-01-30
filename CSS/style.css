@@ -20,4 +20,9 @@ img {
     border-color: rgb(140, 90, 90);
     max-height: 250px;
     max-width: auto;
+    transition: all .2s;
+}
+
+img:hover {
+    transform: scale(1.05);
 }
